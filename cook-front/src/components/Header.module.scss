@@ -1,9 +1,32 @@
+@use '../assets/styles/mixins' as mixin;
+
 .header{
+    position: relative;
+    height: 58px;
     padding: 10px 20px;
     box-shadow: var(--box-shadow-nav);
     background-color: white;
     color: var(--primary);
     img{
         width: 130px;
+    }
+}
+
+.headerList {
+    @include mixin.xs {
+        display: none;
+    }
+}
+
+.headerXs{
+    display: none;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.8;
+    }
+
+    transition: opacity 0.2s;
+    @include mixin.xs {
+        display: block;
     }
 }
