@@ -31,3 +31,13 @@
   max-width: 1130px;
   width: 100%;
 }
+
+.searchBar{
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 2px solid var(--gray-2);
+  input{
+    outline: 0;
+    border: 0;
+  }
+}
