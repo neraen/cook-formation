@@ -1,6 +1,6 @@
 import styles from './Header.module.scss';
-import cookchef from '../assets/images/cookchef.png';
-import HeaderMenuXs from "./HeaderMenuXs";
+import cookchef from '../../assets/images/cookchef.png';
+import HeaderMenuXs from "./components/HeaderMenuXs/HeaderMenuXs";
 import {useState} from "react";
 function Header(){
 
